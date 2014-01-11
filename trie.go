@@ -34,7 +34,7 @@ func (this *Trie) Get(key []byte) (value Value, found bool) {
 	return *r[0].trie.Value, true
 }
 
-// PrefixMatch is the type of Trie's prefix matching functions.
+// PrefixMatch is the type of returned value of Trie's prefix matching functions.
 type PrefixMatch struct {
 	Prefix []byte
 	Value  Value
