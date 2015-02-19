@@ -6,8 +6,10 @@ import (
 
 var keys = []string{
 	"abcdefg",
+	"abcdefghi",
 	"abcdefghijk",
-	"abcd",
+	"abcdefgk",
+	"abcdf",
 	"abcdxyz",
 	"abXdxyz",
 	"abcdefgXXX",
@@ -18,13 +20,14 @@ var nonKeys = []string{
 	"b",
 	"ab",
 	"abc",
+	"abcd",
 	"abcdefghijkl",
 }
 var content = "abcdefghijklm"
-var noPrefixContent = "abcXX"
+var noPrefixContent = "abcdefXX"
 var prefixes = []string{
-	"abcd",
 	"abcdefg",
+	"abcdefghi",
 	"abcdefghijk",
 }
 
